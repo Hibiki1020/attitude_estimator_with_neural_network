@@ -1,6 +1,6 @@
 #!/bin/bash
 
-image_name="cnn_attitude_estimator"
+image_name="attitude_estimator_with_neural_network"
 tag_name="docker"
 root_path=$(pwd)
 

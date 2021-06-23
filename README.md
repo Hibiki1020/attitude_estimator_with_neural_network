@@ -8,7 +8,7 @@ Config docker_run.sh and mound dataset folder in docker
 
 ```
 cd /docker
-docker build -t attitude_estimator_with_neural_network .
+docker build -t attitude_estimator_with_neural_network:docker .
 ./docker_run.sh
 
 ```
