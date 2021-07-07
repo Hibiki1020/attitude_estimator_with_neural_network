@@ -69,7 +69,9 @@ RUN cd /home/ros_catkin_ws/src && \
 		git clone https://github.com/Hibiki1020/cnn_attitude_estimator.git && \
         cd /home/ros_catkin_ws/src && \
         git clone https://github.com/Hibiki1020/num_regression_attitude_estimator.git && \
+		cd /home/ros_catkin_ws/src && \
+		git clone https://github.com/Hibiki1020/deep_visual_gravity_vector_detection_for_unmanned_aircraft_attitude_estimation.git && \
 		cd /home/ros_catkin_ws && \
 		/bin/bash -c "source /opt/ros/noetic/setup.bash; catkin_make"
 
-WORKDIR /home/ros_catkin_ws/src
+WORKDIR /home/ros_catkin_ws
