@@ -34,7 +34,9 @@ Train and Infer dataset must be below format. In my networks, *xyz and yaw data 
 
 # How to Train and Infer?
 
-**Train**
+First, you should do git pull command and update program.
+
+**①Train**
 First, config train_confing.yaml
 
 ```
@@ -43,7 +45,7 @@ python3 train.py
 
 ```
 
-**Infer**
+**②Infer**
 First, config frame_infer_confing.yaml
 
 ```
