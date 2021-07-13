@@ -2,6 +2,11 @@
 
 This repository allows you to build a Docker environment to run a neural network to estimate posture (Roll, Pitch) from camera images.
 
+# Contents
+* [Class Identifer CNN Attitude Estimator](https://github.com/Hibiki1020/cnn_attitude_estimator)
+* [Num Regression DNN Attitude Estimator](https://github.com/Hibiki1020/num_regression_attitude_estimator) based on [Ryota Ozaki's paper](https://ozakiryota.github.io/about_me/papers/icra_2021.pdf)
+* [Other Number Regression DNN Attitude Estimator](https://github.com/Hibiki1020/deep_visual_gravity_vector_detection_for_unmanned_aircraft_attitude_estimation) based on [Gary Ellingson's paper](https://ieeexplore.ieee.org/document/8206443)
+
 # How to build
 
 Config docker_run.sh and mound dataset folder in docker
