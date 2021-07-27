@@ -17,5 +17,5 @@ docker run -it --rm \
     --net=host \
     -v /home/kawai/airsim_dataset:/home/ssd_dir \
 	-v /home/kawai/num_regression_attitude_estimator_log:/home/num_regression_attitude_estimator_log \
-	-v /home/kawai/deep_visual_gravity_vector_detection_for_unmanned_aircraft_attitude_estimation_log: /home/deep_visual_gravity_vector_detection_for_unmanned_aircraft_attitude_estimation_log \
+	-v /home/kawai/deep_visual_gravity_vector_detection_for_unmanned_aircraft_attitude_estimation_log:/home/deep_visual_gravity_vector_detection_for_unmanned_aircraft_attitude_estimation_log \
 	$image_name:$tag_name
